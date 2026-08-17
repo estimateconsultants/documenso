@@ -3,7 +3,7 @@
   "framework": null,
   "functions": {
     "api/index.mjs": {
-      "includeFiles": "apps/remix/build/**",
+      "includeFiles": "apps/remix/build/server/**",
       "maxDuration": 300
     }
   },
