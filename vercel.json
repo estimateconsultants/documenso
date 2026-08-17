@@ -1,8 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "installCommand": "npm ci",
-  "buildCommand": "npx turbo run build --filter=@documenso/remix",
   "functions": {
     "api/index.mjs": {
       "includeFiles": "apps/remix/build/**",
